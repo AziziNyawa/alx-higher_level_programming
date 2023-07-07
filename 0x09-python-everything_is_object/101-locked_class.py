@@ -4,6 +4,7 @@
 This is a module that containts a class that avoids
 dynmaically created attributes
 
+
 """
 
 
