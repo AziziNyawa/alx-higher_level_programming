@@ -7,8 +7,7 @@ class Rectangle(BaseGeometry):
     """ Class that represents a rectangle BaseGeometry"""
 
     def __init__(self, width, height):
-        """ Initializes instance the required classes 
-        """
+        """ Initializes instance rectangle"""
 
         super().integer_validator("width", width)
         super().integer_validator("height", height)
@@ -21,6 +20,6 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """ Special method that returns the printable str of the rectangle"""
-         string = "[" + str(self.__class__.__name__) + "] "
-         string += str(self.__width) + "/" + str(self.__height)
-         return string
+        string = "[" + str(self.__class__.__name__) + "] "
+        string += str(self.__width) + "/" + str(self.__height)
+        return string
