@@ -8,4 +8,4 @@ import json
 def from_json_string(my_str):
     """this method that returns an object in json
     """
-    return json.dump(my_str)
+    return json.load(my_str)
